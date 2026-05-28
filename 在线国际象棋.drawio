@@ -52,6 +52,63 @@
         <mxCell id="hnvYmr1mPBXMRoJ_OLv_-17" value="topK-service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="144" y="270" width="100" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-20" value="用户活跃设备记录，同用户活跃设备数据同步" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="328" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-21" value="落子验证：&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1、先进行用户端验证，完成合理性验证&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2、服务端进行二次校验&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-116" y="403" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-22" value="服务端内存中保持棋盘的全部信息和状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="95" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hnvYmr1mPBXMRoJ_OLv_-24" target="hnvYmr1mPBXMRoJ_OLv_-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-24" value="落子校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="185" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-25" value="落子流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hnvYmr1mPBXMRoJ_OLv_-26" target="hnvYmr1mPBXMRoJ_OLv_-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-26" value="更新棋盘信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="185" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hnvYmr1mPBXMRoJ_OLv_-28" target="hnvYmr1mPBXMRoJ_OLv_-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-28" value="判断输赢" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="185" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-30" value="信息推送（落子结果同步）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="185" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-32" value="悔棋流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="228" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hnvYmr1mPBXMRoJ_OLv_-33" target="hnvYmr1mPBXMRoJ_OLv_-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-33" value="发起悔棋" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="235" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hnvYmr1mPBXMRoJ_OLv_-35" target="hnvYmr1mPBXMRoJ_OLv_-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-35" value="推送悔棋请求给对方确认" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="235" width="75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hnvYmr1mPBXMRoJ_OLv_-37" target="hnvYmr1mPBXMRoJ_OLv_-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-37" value="执行确认结果&lt;div&gt;同意/不同意&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="235" width="75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="hnvYmr1mPBXMRoJ_OLv_-39" value="信息推送（悔棋结果同步）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="695" y="235" width="75" height="35" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
